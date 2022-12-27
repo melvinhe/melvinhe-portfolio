@@ -1,0 +1,35 @@
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+  }
+
+.circle {
+  width: 2.5vmax;
+  height: 2.5vmax;
+  border: 1px solid;
+  color:rgb(22, 22, 22);
+  border-radius: 150%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle:hover {
+  background-color: rgb(223, 223, 223);
+}
+
+.socialsContainer {
+  padding-left: 30vw;
+  padding-right: 30vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
