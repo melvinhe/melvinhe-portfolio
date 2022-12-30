@@ -2,15 +2,61 @@
     {
         "title":"Time Tracker",
         "description":"Web app that lets Brown University students track, visualize, and compare how much time they spend on specific classes",
-        "image":"project_images/nelsonbot.jpg",
+        "image":"welcome.png",
         "href":"https://github.com/melvinhe/TimeTracker",
         "stack": [
-          "Firebase",
-          "Next.js",
           "React",
+          "Next.js",
           "Tailwind CSS",
+          "Firebase",
           "Selenium",
           "Java"
-        ]
-      }
+        ]      
+    },
+    {
+        "title":"Sticky Sign",
+        "description":"Web app that lets users create and share sticky notes",
+        "image":"logo192.png",
+        "href":"https://devpost.com/software/stickysign"
+    },
+    {
+        "title":"Sticky Sign",
+        "description":"Web app that lets users create and share sticky notes",
+        "image":"logo192.png",
+        "href":"https://devpost.com/software/stickysign"
+    },
+    {
+        "title":"Time Tracker",
+        "description":"Web app that lets Brown University students track, visualize, and compare how much time they spend on specific classes",
+        "image":"welcome.png",
+        "href":"https://github.com/melvinhe/TimeTracker",
+        "stack": [
+          "React",
+          "Next.js",
+          "Tailwind CSS",
+          "Firebase",
+          "Selenium",
+          "Java"
+        ]      
+    },
+    {
+        "title":"Time Tracker",
+        "description":"Web app that lets Brown University students track, visualize, and compare how much time they spend on specific classes",
+        "image":"welcome.png",
+        "href":"https://github.com/melvinhe/TimeTracker",
+        "stack": [
+          "React",
+          "Next.js",
+          "Tailwind CSS",
+          "Firebase",
+          "Selenium",
+          "Java"
+        ]      
+    },
+    {
+        "title":"Sticky Sign",
+        "description":"Web app that lets users create and share sticky notes",
+        "image":"logo192.png",
+        "href":"https://devpost.com/software/stickysign"
+    }
 ]
