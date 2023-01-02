@@ -9,30 +9,30 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export default function Header() {
   return (
-    <div className={"header"}>
+    <div className={styles.smallContainer}>
       <Row>
-        <Col lg={3} md={3} sm={3} xs={3}>
+        <Col lg={2} md={2} sm={2} xs={2}>
           <div className={styles.circle}> 
             <a href={socials.linkedin}>
               <FontAwesomeIcon icon={faLinkedin} color="black" />
             </a>
           </div>
         </Col>
-        <Col lg={3} md={3} sm={3} xs={3}>
+        <Col lg={2} md={2} sm={2} xs={2}>
           <div className={styles.circle}> 
             <a href={socials.github}>
               <FontAwesomeIcon icon={faGithub} color="black"/>
             </a>
           </div>
         </Col>
-        <Col lg={3} md={3} sm={3} xs={3}>
+        <Col lg={2} md={2} sm={2} xs={2}>
           <div className={styles.circle}> 
             <a href={"mailto:"+socials.gmail}>
               <FontAwesomeIcon icon={faEnvelope} color="black"/>
             </a>
           </div>
         </Col>
-        <Col lg={3} md={3} sm={3} xs={3}>
+        <Col lg={2} md={2} sm={2} xs={2}>
           <div className={styles.circle}> 
             <a href={"mailto:"+socials.gmail}>
               <FontAwesomeIcon icon={faFile} color="black"/>

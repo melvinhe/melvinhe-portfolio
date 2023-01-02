@@ -33,30 +33,33 @@ export default function Home() {
       <Row className={styles.links}>
         <Col lg={4} md={4} sm={4} xs={12}>
           <Link className={styles.link} to="/about">
+            About
+          </Link>
+          <Link className={styles.link} to="/about">
             {" "}
             <img className={styles.drawings} src={about} />
           </Link>
           <p>
-            <Link className={styles.link} to="/about">
-              About
-            </Link>
           </p>
         </Col>
         <Col lg={4} md={4} sm={4} xs={12}>
           <Link className={styles.link} to="/projects">
+            Projects
+          </Link>
+          <Link className={styles.link} to="/projects">
             {" "}
             <img className={styles.drawings} src={projects} />
           </Link>
-          <Link className={styles.link} to="/projects">
-            Projects
-          </Link>
+          <p>
+          </p>
         </Col>
         <Col lg={4} md={4} sm={4} xs={12}>
           <Link className={styles.link} to="/experience">
-            <img className={styles.drawings} src={experience} />
+            Experience
           </Link>
           <Link className={styles.link} to="/experience">
-            Experience
+            {""}
+            <img className={styles.drawings} src={experience} />
           </Link>
         </Col>
       </Row>

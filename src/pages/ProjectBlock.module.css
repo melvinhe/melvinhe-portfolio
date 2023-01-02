@@ -1,5 +1,5 @@
 .projectBlock {
-  width: 50%;
+  width: 70%;
   height: 400px;
   display: flex;
   flex-direction: column;
@@ -16,8 +16,6 @@
   margin-bottom: 25px;
   
 }
-
-
 
 .projectBlock:hover {
   transform: translateY(-1rem);
