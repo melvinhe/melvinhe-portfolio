@@ -4,13 +4,17 @@
         "company":"Fidelity",
         "location":"Smithsfield, RI",
         "start":"June 2023",
-        "end":"August 2023"
+        "end":"August 2023",
+        "image": "logo192.png",
+        "description": "I will be working on the Fidelity Labs team, which is a group of engineers that work on new and innovative projects. I will be working on a project that will be focused on the Fidelity mobile app. I will be working on a team of 3-4 other interns and will be mentored by a senior engineer."
     },
     {
         "title":"Software Engineering Intern",
         "company":"Thermo Fisher Scientific",
         "location":"Tewksbury, MA",
         "start":"May 2022",
-        "end":"August 2022"
+        "end":"August 2022",
+        "image": "logo192.png",
+        "description": "I will be working on the Fidelity Labs team, which is a group of engineers that work on new and innovative projects. I will be working on a project that will be focused on the Fidelity mobile app. I will be working on a team of 3-4 other interns and will be mentored by a senior engineer."
     }
 ]

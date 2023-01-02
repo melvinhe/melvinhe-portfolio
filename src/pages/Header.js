@@ -9,7 +9,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export default function Header() {
   return (
-    <div className={"header"}>      
+    <div className={"header"}>
       <Row>
         <Col lg={3} md={3} sm={3} xs={3}>
           <div className={styles.circle}> 

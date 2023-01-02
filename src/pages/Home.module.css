@@ -1,20 +1,25 @@
 
+  
   .heading {
     margin-top: 4vh;
-    margin-left: 3vw;
-    font-size: 5.2vmin;
+    font-size: 7vmin;
+    margin-bottom: 5vh;
     overflow: hidden;
     white-space: nowrap;
     animation: typing 3.5s steps(40, end);
-    
+    background-image: linear-gradient(to right, #3498db, #6f63b0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
   
+  
   @keyframes typing {
-    from { width: 0; }
+    from { width: 0%; }
     to { width: 100%; }
   }
   
   .subheading {
+    text-align: center;
     margin-left: 3vw;
     font-size: 2.5vmin;
     margin-right: 10vw;

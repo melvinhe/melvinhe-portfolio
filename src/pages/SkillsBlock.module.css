@@ -1,0 +1,12 @@
+.skill {
+    list-style: none; /* remove default list style */
+    display: inline-block; /* display list items as inline blocks */
+    background-color: rgb(255, 255, 255); /* add a background color to the container */
+    border: 2px solid black;
+    border-radius: 100%; /* make the container oval shaped */
+    padding: 0.5em 0.75em; /* add some padding to the container */
+    margin-right: 0.5em; /* add a small margin between each container */
+    font-size: 0.8em; /* make the text smaller */
+    text-align: center; /* center the text within the container */
+  }
+  

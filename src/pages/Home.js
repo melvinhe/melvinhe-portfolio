@@ -13,18 +13,13 @@ import Header from "./Header";
 export default function Home() {
   return (
     <div>
-      <div className="header-container" style={{ paddingTop: "20px" }}>
-        <Row>
-          <Header />
-        </Row>
-      </div>
+      <Header />
       <Row className="g-0">
         <Col lg={2}>
         </Col>
         <Col lg={9}>
           <h1 className={styles.heading}>
           {salutations()}! My name is Melvin He.
-          
           </h1>
           <p className={styles.subheading}>
             I'm a sophomore studying Applied Mathematics-Computer Science at Brown 

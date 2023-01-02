@@ -1,0 +1,56 @@
+.main {
+  padding-bottom: 30vh;
+}
+
+.heading {
+  text-align: center;
+  font-size: 15vmax;
+  padding-top: 28vh;
+  font-weight: lighter;
+  padding-bottom: 4vh;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  background-image: linear-gradient(to right, #3498db, #6f63b0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: typing 100s linear 1s infinite;
+}
+
+.subheading {
+  text-align: center;
+  font-size: 3.5vmin;
+  margin-left: 17vw;
+  margin-right: 17vw;
+  color: rgb(22, 22, 22);
+  animation: fadeIn 10s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes typing {
+  to {
+    background-position: 4500vh;
+  }
+}
+
+
+@media only screen and (max-width: 992px) {
+  .heading {
+    font-size: 10vmax;
+    margin-left: 5vw;
+    margin-right: 5vw;
+  }
+  .subheading {
+    font-size: 4vmin;
+    margin-left: 10vw;
+    margin-right: 10vw;
+  }
+
+}
